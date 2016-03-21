@@ -1,0 +1,7 @@
+{% set polipo = salt['grains.filter_by']({
+    'default': {
+        'pkg': 'polipo',
+        'service': 'polipo',
+        'config': '/etc/polipo/config'
+    },
+}, merge=salt['pillar.get']('polipo:lookup')) %}

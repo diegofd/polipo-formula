@@ -1,0 +1,276 @@
+{%- if config.allowedClients is defined %}
+allowedClients = {{ config.allowedClients }}
+{%- endif %}
+{%- if config.allowedPorts is defined %}
+allowedPorts = {{ config.allowedPorts }}
+{%- endif %}
+{%- if config.alwaysAddNoTransform is defined %}
+alwaysAddNoTransform = {{ config.alwaysAddNoTransform }}
+{%- endif %}
+{%- if config.authCredentials is defined %}
+authCredentials = {{ config.authCredentials }}
+{%- endif %}
+{%- if config.authRealm is defined %}
+authRealm = {{ config.authRealm }}
+{%- endif %}
+{%- if config.bigBufferSize is defined %}
+bigBufferSize = {{ config.bigBufferSize }}
+{%- endif %}
+{%- if config.cacheIsShared is defined %}
+cacheIsShared = {{ config.cacheIsShared }}
+{%- endif %}
+{%- if config.censoredHeaders is defined %}
+censoredHeaders = {{ config.censoredHeaders }}
+{%- endif %}
+{%- if config.censorReferer is defined %}
+censorReferer = {{ config.censorReferer }}
+{%- endif %}
+{%- if config.chunkCriticalMark is defined %}
+chunkCriticalMark = {{ config.chunkCriticalMark }}
+{%- endif %}
+{%- if config.chunkHighMark is defined %}
+chunkHighMark = {{ config.chunkHighMark }}
+{%- endif %}
+{%- if config.chunkLowMark is defined %}
+chunkLowMark = {{ config.chunkLowMark }}
+{%- endif %}
+{%- if config.CHUNK_SIZE is defined %}
+CHUNK_SIZE = {{ config.CHUNK_SIZE }}
+{%- endif %}
+{%- if config.CHUNK_SIZE is defined %}
+CHUNK_SIZE = {{ config.CHUNK_SIZE }}
+{%- endif %}
+{%- if config.daemonise is defined %}
+daemonise = {{ config.daemonise }}
+{%- endif %}
+{%- if config.disableConfiguration is defined %}
+disableConfiguration = {{ config.disableConfiguration }}
+{%- endif %}
+{%- if config.disableLocalInterface is defined %}
+disableLocalInterface = {{ config.disableLocalInterface }}
+{%- endif %}
+{%- if config.disableProxy is defined %}
+disableProxy = {{ config.disableProxy }}
+{%- endif %}
+{%- if config.disableServersList is defined %}
+disableServersList = {{ config.disableServersList }}
+{%- endif %}
+{%- if config.disableVia is defined %}
+disableVia = {{ config.disableVia }}
+{%- endif %}
+{%- if config.diskCacheDirectoryPermissions is defined %}
+diskCacheDirectoryPermissions = {{ config.diskCacheDirectoryPermissions }}
+{%- endif %}
+{%- if config.diskCacheFilePermissions is defined %}
+diskCacheFilePermissions = {{ config.diskCacheFilePermissions }}
+{%- endif %}
+{%- if config.diskCacheRoot is defined %}
+diskCacheRoot = {{ config.diskCacheRoot }}
+{%- endif %}
+{%- if config.diskCacheTruncateSize is defined %}
+diskCacheTruncateSize = {{ config.diskCacheTruncateSize }}
+{%- endif %}
+{%- if config.diskCacheTruncateTime is defined %}
+diskCacheTruncateTime = {{ config.diskCacheTruncateTime }}
+{%- endif %}
+{%- if config.diskCacheUnlinkTime is defined %}
+diskCacheUnlinkTime = {{ config.diskCacheUnlinkTime }}
+{%- endif %}
+{%- if config.diskCacheWriteoutOnClose is defined %}
+diskCacheWriteoutOnClose = {{ config.diskCacheWriteoutOnClose }}
+{%- endif %}
+{%- if config.DISK_CACHE_BODY_OFFSET is defined %}
+DISK_CACHE_BODY_OFFSET = {{ config.DISK_CACHE_BODY_OFFSET }}
+{%- endif %}
+{%- if config.displayName is defined %}
+displayName = {{ config.displayName }}
+{%- endif %}
+{%- if config.dnsGethostbynameTtl is defined %}
+dnsGethostbynameTtl = {{ config.dnsGethostbynameTtl }}
+{%- endif %}
+{%- if config.dnsMaxTimeout is defined %}
+dnsMaxTimeout = {{ config.dnsMaxTimeout }}
+{%- endif %}
+{%- if config.dnsNameServer is defined %}
+dnsNameServer = {{ config.dnsNameServer }}
+{%- endif %}
+{%- if config.dnsNegativeTtl is defined %}
+dnsNegativeTtl = {{ config.dnsNegativeTtl }}
+{%- endif %}
+{%- if config.dnsQueryIPv6 is defined %}
+dnsQueryIPv6 = {{ config.dnsQueryIPv6 }}
+{%- endif %}
+{%- if config.dnsUseGethostbyname is defined %}
+dnsUseGethostbyname = {{ config.dnsUseGethostbyname }}
+{%- endif %}
+{%- if config.dontCacheCookies is defined %}
+dontCacheCookies = {{ config.dontCacheCookies }}
+{%- endif %}
+{%- if config.dontCacheRedirects is defined %}
+dontCacheRedirects = {{ config.dontCacheRedirects }}
+{%- endif %}
+{%- if config.dontTrustVaryETag is defined %}
+dontTrustVaryETag = {{ config.dontTrustVaryETag }}
+{%- endif %}
+{%- if config.expectContinue is defined %}
+expectContinue = {{ config.expectContinue }}
+{%- endif %}
+{%- if config.forbiddenFile is defined %}
+forbiddenFile = {{ config.forbiddenFile }}
+{%- endif %}
+{%- if config.forbiddenRedirectCode is defined %}
+forbiddenRedirectCode = {{ config.forbiddenRedirectCode }}
+{%- endif %}
+{%- if config.forbiddenUrl is defined %}
+forbiddenUrl = {{ config.forbiddenUrl }}
+{%- endif %}
+{%- if config.idleTime is defined %}
+idleTime = {{ config.idleTime }}
+{%- endif %}
+{%- if config.laxHttpParser is defined %}
+laxHttpParser = {{ config.laxHttpParser }}
+{%- endif %}
+{%- if config.localDocumentRoot is defined %}
+localDocumentRoot = {{ config.localDocumentRoot }}
+{%- endif %}
+{%- if config.logFacility is defined %}
+logFacility = {{ config.logFacility }}
+{%- endif %}
+{%- if config.logFile is defined %}
+logFile = {{ config.logFile }}
+{%- endif %}
+{%- if config.logFilePermissions is defined %}
+logFilePermissions = {{ config.logFilePermissions }}
+{%- endif %}
+{%- if config.logLevel is defined %}
+logLevel = {{ config.logLevel }}
+{%- endif %}
+{%- if config.logSyslog is defined %}
+logSyslog = {{ config.logSyslog }}
+{%- endif %}
+{%- if config.MALLOC_CHUNKS is defined %}
+MALLOC_CHUNKS = {{ config.MALLOC_CHUNKS }}
+{%- endif %}
+{%- if config.maxAge is defined %}
+maxAge = {{ config.maxAge }}
+{%- endif %}
+{%- if config.maxAgeFraction is defined %}
+maxAgeFraction = {{ config.maxAgeFraction }}
+{%- endif %}
+{%- if config.maxDiskCacheEntrySize is defined %}
+maxDiskCacheEntrySize = {{ config.maxDiskCacheEntrySize }}
+{%- endif %}
+{%- if config.maxDiskEntries is defined %}
+maxDiskEntries = {{ config.maxDiskEntries }}
+{%- endif %}
+{%- if config.maxExpiresAge is defined %}
+maxExpiresAge = {{ config.maxExpiresAge }}
+{%- endif %}
+{%- if config.maxNoModifiedAge is defined %}
+maxNoModifiedAge = {{ config.maxNoModifiedAge }}
+{%- endif %}
+{%- if config.maxObjectsWhenIdle is defined %}
+maxObjectsWhenIdle = {{ config.maxObjectsWhenIdle }}
+{%- endif %}
+{%- if config.maxPipelineTrain is defined %}
+maxPipelineTrain = {{ config.maxPipelineTrain }}
+{%- endif %}
+{%- if config.maxSideBuffering is defined %}
+maxSideBuffering = {{ config.maxSideBuffering }}
+{%- endif %}
+{%- if config.maxWriteoutWhenIdle is defined %}
+maxWriteoutWhenIdle = {{ config.maxWriteoutWhenIdle }}
+{%- endif %}
+{%- if config.mindlesslyCacheVary is defined %}
+mindlesslyCacheVary = {{ config.mindlesslyCacheVary }}
+{%- endif %}
+{%- if config.objectHashTableSize is defined %}
+objectHashTableSize = {{ config.objectHashTableSize }}
+{%- endif %}
+{%- if config.objectHighMark is defined %}
+objectHighMark = {{ config.objectHighMark }}
+{%- endif %}
+{%- if config.parentAuthCredentials is defined %}
+parentAuthCredentials = {{ config.parentAuthCredentials }}
+{%- endif %}
+{%- if config.parentProxy is defined %}
+parentProxy = {{ config.parentProxy }}
+{%- endif %}
+{%- if config.pidFile is defined %}
+pidFile = {{ config.pidFile }}
+{%- endif %}
+{%- if config.pipelineAdditionalRequests is defined %}
+pipelineAdditionalRequests = {{ config.pipelineAdditionalRequests }}
+{%- endif %}
+{%- if config.pmmFirstSize is defined %}
+pmmFirstSize = {{ config.pmmFirstSize }}
+{%- endif %}
+{%- if config.pmmSize is defined %}
+pmmSize = {{ config.pmmSize }}
+{%- endif %}
+{%- if config.preciseExpiry is defined %}
+preciseExpiry = {{ config.preciseExpiry }}
+{%- endif %}
+{%- if config.proxyAddress is defined %}
+proxyAddress = {{ config.proxyAddress }}
+{%- endif %}
+{%- if config.proxyName is defined %}
+proxyName = {{ config.proxyName }}
+{%- endif %}
+{%- if config.proxyName is defined %}
+proxyName = {{ config.proxyName }}
+{%- endif %}
+{%- if config.proxyOffline is defined %}
+proxyOffline = {{ config.proxyOffline }}
+{%- endif %}
+{%- if config.proxyPort is defined %}
+proxyPort = {{ config.proxyPort }}
+{%- endif %}
+{%- if config.publicObjectLowMark is defined %}
+publicObjectLowMark = {{ config.publicObjectLowMark }}
+{%- endif %}
+{%- if config.redirector is defined %}
+redirector = {{ config.redirector }}
+{%- endif %}
+{%- if config.redirectorRedirectCode is defined %}
+redirectorRedirectCode = {{ config.redirectorRedirectCode }}
+{%- endif %}
+{%- if config.replyUnpipelineSize is defined %}
+replyUnpipelineSize = {{ config.replyUnpipelineSize }}
+{%- endif %}
+{%- if config.replyUnpipelineTime is defined %}
+replyUnpipelineTime = {{ config.replyUnpipelineTime }}
+{%- endif %}
+{%- if config.scrubLogs is defined %}
+scrubLogs = {{ config.scrubLogs }}
+{%- endif %}
+{%- if config.serverExpireTime is defined %}
+serverExpireTime = {{ config.serverExpireTime }}
+{%- endif %}
+{%- if config.serverMaxSlots is defined %}
+serverMaxSlots = {{ config.serverMaxSlots }}
+{%- endif %}
+{%- if config.serverSlots is defined %}
+serverSlots = {{ config.serverSlots }}
+{%- endif %}
+{%- if config.serverSlots1 is defined %}
+serverSlots1 = {{ config.serverSlots1 }}
+{%- endif %}
+{%- if config.smallRequestTime is defined %}
+smallRequestTime = {{ config.smallRequestTime }}
+{%- endif %}
+{%- if config.socksParentProxy is defined %}
+socksParentProxy = {{ config.socksParentProxy }}
+{%- endif %}
+{%- if config.socksProxyType is defined %}
+socksProxyType = {{ config.socksProxyType }}
+{%- endif %}
+{%- if config.socksUserName is defined %}
+socksUserName = {{ config.socksUserName }}
+{%- endif %}
+{%- if config.tunnelAllowedPorts is defined %}
+tunnelAllowedPorts = {{ config.tunnelAllowedPorts }}
+{%- endif %}
+{%- if config.uncachableFile is defined %}
+uncachableFile = {{ config.uncachableFile }}
+{%- endif %}

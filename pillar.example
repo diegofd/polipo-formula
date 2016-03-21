@@ -1,0 +1,5 @@
+polipo:
+  logSyslog: true
+  logFile: /var/log/polipo/polipo.log
+  proxyAddress: 0.0.0.0
+  allowedClients: 0.0.0.0/0
